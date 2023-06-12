@@ -1,2 +1,2 @@
 # AMPEOK
-main repository branch
+Ampeok repository branch
