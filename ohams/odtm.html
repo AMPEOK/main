@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ODTM media</title>
+        <link rel="shortcut icon" href="odtmmediaimages/logo.png" type="image/x-img">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/solid.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/odtmstyle.css">
+        <script src="script.js"></script>
+        
+        
+        <script>
+                function odtmemail() {
+                        var name = document.getElementById("name").value;
+                        var email = document.getElementById("email").value;
+                        var subject = document.getElementById("subject").value;
+                        var message = name  + document.getElementById("message").value;
+
+                        if (name == "" || email == "" || subject == "" || message == "") {
+                                alert ("please fill all the mail parameters")
+                        }  
+                        else {
+                                open(href = "mailto: odtmmedia@gmail.com"+"?subject="+subject+"&body="+message);
+                        }
+                }
+        </script>
+</head>
+<body>
+        
+        <div class="pagelinks" id="link">
+                <a href="realty.html">
+                        <h1>OHAMS realty</h1>
+                        <i class="fa-solid fa-city"></i>
+                </a>
+                <a href="index.html">
+                        <h1>OHAMS International services</h1>
+                        <i class="fa-solid fa-tractor"></i>
+                </a>
+                <a href="odtm.html">
+                        <h1>ODTM media</h1>
+                        <i class="fa-solid fa-video-camera"></i>
+                </a>
+        </div>
+
+        <header class="header w-100">
+                <nav>
+                        <ul class="list-unstyled row">
+                                <li class="col col-3" onclick="scrolltopage('home')">home</li>
+                                <li class="col col-3" onclick="scrolltopage('about')">about</li>
+                                <li class="col col-3 drop">services <i class="fa-solid fa-angle-down"></i>
+                                        <div class="myDropdown col-lg-3">
+                                                <div onclick="scrolltopage('brandInterest')">Brand Interest</div>
+                                                <div onclick="scrolltopage('packages')">Packages</div>
+                                                <div onclick="scrolltopage('socialMedia')">Social media</div>
+                                        </div>
+                                </li>
+                                <li class="col col-3" onclick="scrolltopage('contact')">contact</li>
+                        </ul>
+                </nav>
+
+        </header>
+
+        <div class="home row" id="home">
+                <div class="col-lg-5 col-md-5 col-sm-1 text">
+                        <h1>
+                                <div class="gold-back">To Gravitate </div> your media presence
+                        </h1>
+                        <h6><span class="gold-back">ODTM</span> media has the potential to increase your media presence to a factor of hundred percent.</h6>
+                        <button onclick="scrolltopage('about')">Read More <i class="fa-solid fa-arrow-down"></i></button>
+                </div>
+
+                <div class="col-lg-5 col-md-5 col-sm-10 image">
+                        <img src="odtmmediaimages/young-asian-man-with-camera-isolated.png" alt="">
+                </div>
+
+        </div>
+
+        <div id="about">
+                <div class="about row">
+                        <h2>About</h2>
+                        <div class="justify-content-around">
+                                <div class="blur"></div>
+                                <div class="blurtext">
+                                        <p>
+                                                Our team at <span class="gold-back">ODTM</span> media are completely committed to our work and we hope to work with your brands to increase your media presence through our various mediums thereby improving the standard of your brands by a several hundred percentage in a matter of few months...
+                                        </p>
+                                        <p>
+                                                At <span class="gold-back">ODTM MEDIA & ADVERTISING</span>, we pride ourselves on our team of talented professionals who bring expertise, creativity, and passion to every project. Our employees are experienced in their respective fields, ensuring that our clients receive top-quality service and innovative solutions.
+                                        </p>
+                                </div>
+                
+                        </div>
+                </div>
+                <div class="ourbrief">
+                        
+                        <h4>Our Brief</h4>
+                        <p class="brief">
+                                Established in 2018, ODTM MEDIA & ADVERTISING has built a solid reputation for its professionalism, creativity, and commitment to excellence. We offer a wide range of services tailored to meet the diverse needs of our clients, including:
+                        </p>
+                        
+                        <div class="fivebox row justify-content-evenly align-items-center">
+                                <div class="box row justify-content-evenly col-lg-12 col-md-12 col-sm-10">
+                                        <div class="boxes col-lg-3 col-md-5 col-sm-11">
+                                                <i class="fa-solid fa-television"></i>
+                                                <h5>Television Production</h5>
+                                                <p>
+                                                         Our experienced team of producers, directors, and technicians excel in creating captivating television content. From TV shows and school documentaries to commercials and corporate videos, we bring ideas to life with cutting-edge technology and top-notch production value.
+                                                </p>
+                                        </div>
+
+                                        <div class="boxes col-lg-3 col-md-5 col-sm-11">
+                                                <i class="fa-solid fa-radio"></i>
+                                                <h5>Radio Broadcasting</h5>
+                                                <p>
+                                                        We operate a network of radio stations that cater to different demographics and genres. Our radio programs cover a wide range of topics, including news, entertainment, music, and talk shows. We strive to deliver engaging content that entertains and informs our listeners.
+                                                </p>
+                                        </div>
+                                        
+                                        <div class="boxes col-lg-3 col-md-5 col-sm-11">
+                                                <i class="fa-solid fa-lightbulb"></i>
+                                                <h5>Digital Media Solutions</h5>
+                                                <p>
+                                                        Recognizing the growing importance of digital platforms, we offer a comprehensive range of digital media solutions. Our expertise includes social media management, online advertising, and content creation.
+                                                </p>
+                                        </div>
+                                </div>
+                               
+                                <div class="box row justify-content-evenly col-lg-12 col-md-12 col-sm-10">
+                                        <div class="boxes col-lg-3 col-md-5 col-sm-11">
+                                                <i class="fa-solid fa-list-check"></i>
+                                                <h5>Event Management</h5>
+                                                <p>
+                                                        Our event management services cover a broad spectrum of occasions, from photography, videography, corporate conferences and product launches to music concerts and award ceremonies. We meticulously plan and execute events, ensuring seamless coordination and unforgettable experiences for both organizers and attendees.
+                                                </p>
+                                        </div>
+
+                                        <div class="boxes col-lg-3 col-md-5 col-sm-11">
+                                                <i class="fa-solid fa-bullhorn"></i>
+                                                <h5>Advertising and Marketing</h5>
+                                                <p>
+                                                        As a media company, we understand the power of effective advertising and marketing strategies. Our dedicated team works closely with clients to develop targeted campaigns that maximize brand exposure and drive results. We offer a range of advertising services, including print media, television, radio, and digital advertising.
+                                                </p>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <p class="brief">
+                                We are committed to staying ahead of industry trends and embracing technological advancements to deliver the best possible media experiences. Our strong network of partnerships and collaborations enables us to access the latest resources and tools, further enhancing our capabilities.
+                        </p>
+
+                        <div class="carousel slide" id="myCarousel" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                                <img src="odtmmediaimages/woman-holding-phone.webp" alt="">
+                                                <div class="cover"></div>
+                                                <div class="texts">
+                                                        <i class="fa-solid fa-users"></i>
+                                                        <h3>Increasing your audience</h3>
+                                                        <p> <span class="gold-back">ODTM</span> serves as your powerful ally in expanding your audience reach providing robust tools for targeted promotion, engaging content discovery, and seamless sharing across various platforms, enabling you to captivate and attract a broader audience driving growth and maximizing your impact.</p>
+                                                </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                                <img src="odtmmediaimages/sound.jpg">
+                                                <div class="cover"></div>
+                                                <div class="texts">
+                                                        <i class="fa-solid fa-television"></i>
+                                                        <h3>TV Platforms</h3>
+                                                        <p>With an extensive library of content, personalized recommendations and a user-friendly interface, our TV platforms guarantee maximum visibility and engagement for your shows, reaching a diverse global audience, and ensuring your content receives the attention and viewership it deserves.</p>
+                                                </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                                <img src="odtmmediaimages/tech_camera.jpg">
+                                                <div class="cover"></div>
+                                                <div class="texts">
+                                                        <i class="fa-solid fa-folder-closed"></i>
+                                                        <h3>Keeping your memory for you</h3>
+                                                        <p>Embrace the nostalgia and treasure every moments with <span class="gold-back">ODTM</span>that acts as your digital vault, offering secure and unlimited storage for your cherished memories ensuring they remain safe, organized and readily accessible, allowing you to relive and share your special moments for a lifetime.</p>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="controllink">
+                        
+                                        <button type="button" class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#myCarousel">
+                                                <span class="fa-solid fa-angle-double-left" aria-current="true"></span>
+                                        </button>
+                
+                                        <button type="button" class="carousel-control-next" data-bs-slide="next" data-bs-target="#myCarousel">
+                                                <span class="fa-solid fa-angle-double-right" aria-current="true"></span>
+                                        </button>
+                                </div>
+                        </div> 
+                </div>
+
+                <div class="partner">
+                        <h4>Agency Partners</h4>
+                        <div class="partnerbox row">
+                                <div class="partnerboxes col-lg-2 col-md-4 col-sm-10">
+                                        <img src="odtmmediaimages/brand eye logo.jpg" alt="brand eye logo">
+                                        <h5>Brand Eye</h5>
+                                        <address>
+                                                <a href="https://web.facebook.com/brandeyemedia/?_rdc=1&_rdr"><i class="fa-brands fa-facebook"></i></a>
+                                                <a href="https://www.instagram.com/brandeyemedia/?hl=en"><i class="fa-brands fa-instagram-square"></i></a>
+                                        </address>
+                                </div>
+                                <div class="partnerboxes col-lg-2 col-md-4 col-sm-10">
+                                        <img src="odtmmediaimages/phd logo.png" alt="PHD media logo">
+                                        <h5>PHD media</h5>
+                                        <address>
+                                                <a href="https://web.facebook.com/p/PHD-Nigeria-100071469474505/?paipv=0&eav=Afa1-QwDeswtgyjrHE0QXNtS_1WP3j84uY2BauVW-wkHHE-d2vWmzqLAl-6gXz2o_WU&_rdc=1&_rdr"><i class="fa-brands fa-facebook"></i></a>
+                                                <a href="https://www.instagram.com/phdworldwide/?hl=en"><i class="fa-brands fa-instagram-square"></i></a>
+                                        </address>
+                                </div>
+                                <div class="partnerboxes col-lg-2 col-md-4 col-sm-10">
+                                        <img src="odtmmediaimages/media fuse logo.png" alt="MEDIA fuse logo">
+                                        <h5>Media Fuse </h5>
+                                        <address>
+                                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                                <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                                        </address>
+                                </div>
+                                <div class="partnerboxes col-lg-2 col-md-4 col-sm-10">
+                                        <img src="odtmmediaimages/mediaperspective logo.jpg" alt="Media perspective logo">
+                                        <h5>Media perspective</h5>
+                                        <address>
+                                                <a href="https://www.facebook.com/mediaperspectivesng?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                                                <a href="https://instagram.com/media_perspectives?igshid=NTc4MTIwNjQ2YQ=="><i class="fa-brands fa-instagram-square"></i></a>
+                                        </address>
+                                </div>
+                                <div class="partnerboxes col-lg-2 col-md-4 col-sm-10">
+                                        <img src="odtmmediaimages/starcom media logo.png" alt="Starcom Media logo">
+                                        <h5>Starcom Media</h5>
+                                        <address>
+                                                <a href="https://www.facebook.com/starcommyanmar?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                                                <a href="https://instagram.com/starcom_sa?igshid=NTc4MTIwNjQ2YQ=="><i class="fa-brands fa-instagram-square"></i></a>
+                                        </address>
+                                </div>
+                        </div>
+                </div>
+
+                <div class="background">
+                        <div class="Project">
+                                <h4>Previous Projects</h4>
+                                <div class="Projectbox row">
+                                        <div class="Projectboxes col-lg-3 col-md-5 col-sm-8">
+                                                <h6>Branding</h6>
+                                                <h5>Arik Airline</h5>
+                                                <address>
+                                                        <a href="https://www.facebook.com/arikairwaysuk?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                                                        <a href="https://instagram.com/flyarikair?igshid=NTc4MTIwNjQ2YQ=="><i class="fa-brands fa-instagram-square"></i></a>
+                                                </address>
+                                                <img src="odtmmediaimages/arik airline Logo.png" alt="Arik airline logo">
+                                        </div>
+
+                                        <div class="Projectboxes col-lg-3 col-md-5 col-sm-8">
+                                                <h6>Branding</h6>
+                                                <h5>Bi courtney</h5>
+                                                <address>
+                                                        <a href="https://www.facebook.com/MMA2Bicourtney?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                                                        <a href="https://instagram.com/mma2bicourtney?igshid=NTc4MTIwNjQ2YQ=="><i class="fa-brands fa-instagram-square"></i></a>
+                                                </address>
+                                                <img src="odtmmediaimages/bicourtney logo.jpg" alt="bicourtney logo">
+                                        </div>
+                        
+                                        <div class="Projectboxes col-lg-3 col-md-5 col-sm-8">
+                                                <h6>Branding</h6>
+                                                <h5>Genesis Cinemals</h5>
+                                                <address>
+                                                        <a href="https://www.facebook.com/genesiscinemasfr?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                                                        <a href="https://instagram.com/genesiscinemas?igshid=NTc4MTIwNjQ2YQ=="><i class="fa-brands fa-instagram-square"></i></a>
+                                                </address>
+                                                <img src="odtmmediaimages/genesis cinema logo.png" alt="genesis Cinemal logo">
+                                        </div>
+                                </div>
+                        </div>
+
+                        <div class="countingnumbers row justify-content-evenly">
+                                <div class="numbers col-lg-2 col-md-4 col-sm-2">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        <h5 class="countervalue" data-val="5">5</h5>
+                                        <p>years of experience</p>
+                                </div>
+                                <div class="numbers col-lg-2 col-md-4 col-sm-2">
+                                        <i class="fa-solid fa-smile-wink"></i>
+                                        <h5 class="countervalue" data-val="50">50+</h5>
+                                        <p>Hapy customers</p>
+                                </div>
+                                <div class="numbers col-lg-2 col-md-4 col-sm-2">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        <h5 class="countervalue" data-val="100">100+</h5>
+                                        <p>Projects completed</p>
+                                </div>
+                                <div class="numbers col-lg-2 col-md-4 col-sm-2">
+                                        <i class="fa-solid fa-award"></i>
+                                        <h5 class="countervalue" data-val="4">4</h5>
+                                        <p>Physical Awards</p>
+                                </div>
+                        </div>
+                </div>
+
+                <div id="schooltrendz">
+                        <h4>Schooltrendz Tv</h4>
+                        <p class="brief">
+                                A subsidiary of ODTM Media. SchoolTrendz is a captivating and informative media program that showcases a diverse range of school documentaries and events. This program aims to provide a platform for schools to showcase their students talents, share their unique stories, and celebrate the vibrant and dynamic school community. Through visually engaging documentaries, interviews, and event coverage, <span class="gold-back">SchoolTrendz</span> offers viewers an inside look into the daily lives, achievements, and challenges of school.
+                        </p>
+
+                        <div class="box">
+                                <h4>The team</h4>
+                                <div class="team row">
+                                        <div class="teambox col-lg-4 col-md-5 col-sm-10">
+                                                <img src="ohamsrealtyimages/olusegun.jpeg" alt="">
+                                                <h5>Oladimeji Williams</h5>
+                                                <h6>CEO/Founder</h6>
+                                                <ul>
+                                                        <li>
+                                                                Mr. Oladimeji Williams Olusegun is a dynamic and visionary leader, serving as the CEO of OHAMS Group of companies.
+                                                        </li>
+                                                </ul>
+                                                <div></div>
+                                        </div>
+                                        <div class="teambox col-lg-4 col-md-5 col-sm-10">
+                                                <img src="ohamsrealtyimages/bola-ogundeyi.jpeg" alt="">
+                                                <h5>Bola Ogundeyi</h5>
+                                                <h6>Director</h6>
+
+                                                <ul>
+                                                        <li>
+                                                                An enthusiastic and charismatic individual with a passion for business development, management & strategy. 
+                                                        </li>
+                                                        <li>She holds a B.Ed from Lead City University Ibadan, Oyo state. She is being recognized with her input in the transformation of brands accross board line ensuring a smooth running of all brands under the group </li>
+                                                </ul>
+                                                <div></div>
+                                        </div>
+                                        <div class="teambox col-lg-4 col-md-5 col-sm-10">
+                                                <img src="odtmmediaimages/merlin_164682477_6ccf6aa6-3a83-4d18-bdbb-a8e99ede3d3f-videoSixteenByNine3000.jpg" alt="">
+                                                <h5>Psalm Oderinde</h5>
+                                                <h6>Media Director</h6>
+
+                                                <ul>
+                                                        <li>Skilled cinematographer with an eye for capturing compelling visuals.</li>
+                                                        <li>Has a strong background in editing and post-production, ensuring high-quality content.</li>
+                                                        <li>Adaptable and quick on their feet, capable of capturing spontaneous moments during events.</li>
+                                                </ul>
+                                                <div></div>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <div class="box">
+                                <div class="format">
+                                        <h4>Format</h4>
+                                        <p>
+                                                
+                                                Each episode of SchoolTrendz typically consists of multiple segments, including documentaries, event coverage, and interviews.
+                                        </p>
+
+                                        <div class="carousel slide" id="schooltrendzcarousel" data-bs-ride="carousel">
+                                                <div class="carousel-inner">
+                                                        <div class="carousel-item active">
+                                                                <div class="box">
+                                                                        <i class="fa-solid fa-book-atlas"></i>
+                                                                        <h6>Documentaries</h6>
+                                                                        <div>
+                                                                                Showcasing in-depth explorations of specific aspects of school life. 
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                        <div class="carousel-item">
+                                                                <div class="box">
+                                                                        <i class="fa-solid fa-camera-alt"></i>
+                                                                        <h6>Event Coverage</h6>
+                                                                        <div>
+                                                                                Covers a wide array of school events, such as sports competitions, theatrical performances, art exhibitions, and academic competitions. The coverage provides viewers with a front-row seat to the action, emphasizing the talents and achievements of the school's students.
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                        
+                                                        <div class="carousel-item">
+                                                                <div class="box">
+                                                                        <i class="fa-solid fa-microphone"></i>
+                                                                        <h6>Interviews</h6>
+                                                                        <div>
+                                                                                inviting key figures within the school community, including, head teachers, administrators, and alumni, for engaging and insightful interviews. These interviews delve into personal experiences, inspiring stories, and the impact of the school on their lives, fostering a sense of connection and community.
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                              
+                                                        <div class="carousel-item">
+                                                                <div class="box">
+                                                                        <i class="fa-solid fa-eye"></i>
+                                                                        <h6>Visual style</h6>
+                                                                        <div>
+                                                                                Employs a visually dynamic and captivating style to engage viewers. The program utilizes a combination of handheld shots, steady camera work, and creative angles to create an immersive experience.
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                        
+                                                        <div class="carousel-item">
+                                                                <div class="box">
+                                                                        <i class="fa-solid fa-database"></i>
+                                                                        <h6>Information Communication</h6>
+                                                                        <div>
+                                                                                Cinematic visuals are combined with appealing graphics and text overlays to provide essential information and highlight key moments during the documentaries and event coverage. The editing style is energetic and dynamic, ensuring a seamless flow between segments and maintaining audience interest throughout the program.
+
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                        
+                                                        <div class="carousel-item">
+                                                                <div class="box">
+                                                                        <i class="fa-solid fa-users-viewfinder"></i>
+                                                                        <h6>Target Audience</h6>
+                                                                        <div>
+                                                                                Students, teachers, parents, and the wider community are the primary target audience. The program aims to foster a sense of pride and appreciation for the school community among its viewers. Additionally, it serves as a valuable resource for prospective students and their families, offering a glimpse into the school's vibrant atmosphere and educational offerings.
+
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                        
+                                                        <div class="carousel-item">
+                                                                <div class="box">
+                                                                <i class="fa-solid fa-broadcast-tower"></i>
+                                                                        <h6>Broadcasting Platform</h6>
+                                                                        <div>
+                                                                                Available for streaming on the school's website, social media channels, Broadcast media companies and other online platforms, ensuring widespread accessibility to the school community and beyond.
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+
+                                                <div class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#schooltrendzcarousel">
+                                                        <span class="carousel-control-prev-icon"  aria-current="true"></span>
+                                                </div>
+
+                                                <div class="carousel-control-next" data-bs-slide="next" data-bs-target="#schooltrendzcarousel">
+                                                        <span class="carousel-control-next-icon"  aria-current="true"></span>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+
+        <div class="services">
+                <h2>Services</h2>
+                <div id="brandInterest" class="row justify-content-center">
+                        <h4>Brand Interests</h4>
+                        <div class="col-lg-5 col-md-5 image">
+                                <img src="odtmmediaimages/1676157069692.png">
+                        </div>
+
+                        <div class="col-lg-5 col-md-5 flex">
+                                <ul>
+                                        <li>Exceptional Return On Investment</li>
+                                        <li>Extremely low entry cost</li>
+                                        <li>Nationwide media presence of about 10-15 million viewers</li>
+                                        <li>Monthly awareness on 2 different Television stations both on terrestrial and digital cable</li>
+                                        <li>Showing the strength & core values of the brand to a more valuable audience at every point in time</li>
+                                </ul>
+                        </div>
+                </div>
+
+                <div id="packages" class="row justify-content-center">
+                        <h4>Packages</h4>
+                        <div class="flex col-lg-5 col-md-5 col-sm-8">
+                                <div class="box col-lg-3 col-md-5 col-sm-11">
+                                        <i class="fa-solid fa-diamond top"></i>
+                                        <h3 class="boxh3">trendz diamond</h3>
+                                        <div class="flex1">
+                                                <ul class="bordered">
+                                                        <li>TVC Entertainment</li>
+                                                        <li>WAP Tv</li>
+                                                        <li>Wazobia Max</li>
+                                                        <li>OGTV</li>
+                                                        <li>RSTV (Port-Harcourt)</li>
+                                                </ul>
+                                                <ul>
+                                                        <li>End of the year party</li>
+                                                        <li>Cultural day</li>
+                                                        <li>Interhouse Sport</li>
+                                                        <li>Valedictary Service</li>
+                                                        <li>Christmas carol</li>
+                                                </ul>
+                                        </div>
+                                        <section class="w-100">
+                                                <div class="bordered">
+                                                        <p>1<sup>st</sup> Term</p>
+                                                        <span><i class="fa-solid fa-naira-sign"></i>300,000</span>
+                                                </div>
+
+                                                <div class="bordered">
+                                                        <p>2<sup>nd</sup> Term</p>
+                                                        <span><i class="fa-solid fa-naira-sign"></i>200,000</span>
+                                                </div>
+                                                <div>
+                                                        <p>3<sup>rd</sup> Term</p>
+                                                        <span><i class="fa-solid fa-naira-sign"></i>150,000</span>
+                                                </div>
+                                        </section>
+                                </div>
+                        </div>
+                        <div class="flex col-lg-4 col-md-4 col-sm-8">
+                                <div class="box col-lg-3 col-md-5 col-sm-11">
+                                        <i class="fa-solid fa-trophy top"></i>
+                                        <h3 class="boxh3">trendz gold</h3>
+                                        <div class="flex1">
+                                                <ul class="bordered">
+                                                        <li>TVC Entertainment</li>
+                                                        <li>WAP Tv</li>
+                                                        <li>Wazobia Max</li>
+                                                </ul>
+                                                <ul>
+                                                        <li>End of the year party</li>
+                                                        <li>Interhouse Sport</li>
+                                                        <li>Christmas carol</li>
+                                                </ul>
+                                        </div>
+                                        <section class="w-100">
+                                                <div class="bordered">
+                                                        <p>1<sup>st</sup> Term</p>
+                                                        <span><i class="fa-solid fa-naira-sign"></i>300,000</span>
+                                                </div>
+
+                                                <div class="bordered">
+                                                        <p>2<sup>nd</sup> Term</p>
+                                                        <span><i class="fa-solid fa-naira-sign"></i>100,000</span>
+                                                </div>
+                                                <div>
+                                                        <p>3<sup>rd</sup> Term</p>
+                                                        <span><i class="fa-solid fa-naira-sign"></i>50,000</span>
+                                                </div>
+                                        </section>
+                                </div>
+                        </div>
+                </div>
+
+                <div id="socialMedia" class="row">
+                        <h4>social media package</h4>
+                        <div class="flex col-lg-5 col-sm-10">
+                                <p>Creation of new acount</p>
+                                <p>Account management</p>
+                                <p>Content calendar</p>
+                                <p>Hashtag optimization</p>
+                                <p>Social media design</p>
+                                <p>Posting assistant</p>
+                        </div>
+
+                        <img src="odtmmediaimages/png-clipart-man-using-camera-illustration-grapher-graphy-graphers-happy-birthday-vector-images-cartoon.png" class="col-lg-4 col-md-4 col-sm-10">
+                </div>
+        </div>
+
+        <div id="portfolio">
+                <img src="odtmmediaimages/portfolio/1.jpg">
+                <img src="odtmmediaimages/portfolio/2.jpg">
+                <img src="odtmmediaimages/portfolio/3.jpg">
+                <img src="odtmmediaimages/portfolio/4.jpg">
+                <img src="odtmmediaimages/portfolio/5.jpg">
+        </div>
+
+        <div class="footer" id="contact">
+                <H2>Get in touch</H2>
+                <div class="contact row">
+                        <div class="left col-xl-4 col-md-4 col-sm-12 justify-content-around">
+                                <div class="contactbox col-lg-3 col-md-5 col-sm-11">
+                                        <input type="text" placeholder="Full Name" id="name"> <br>
+                                        <input type="email" placeholder="Email Address" id="email"> <br>
+                                        <input type="text" placeholder="Subject" id="subject"> <br>
+                                        <textarea placeholder="How may we help you?" id="message" cols="30" rows="10"></textarea>
+                                        <button onclick="odtmemail()">SUBMIT</button>
+                                </div>
+
+                        </div>
+                        <div class="right col-xl-6 col-md-6 col-sm-12 justify-content-around">
+                                <section id="address" class="row justify-content-evenly">
+                                        <div class="col-lg-4 col-md-4">
+                                                contact info
+                                        </div>
+                                        <ul class="col-lg-6 col-md-6">
+                                                <li><i class="fa-solid fa-phone"></i> <br> <a href="tel:+2348090523261">+2348090523261</a></li>
+                                                <li><i class="fa-solid fa-envelope"></i> <br> <a href="mailto:odtmmedia@gmail.com">odtmmedia@gmail.com</a></li>
+                                                <li>
+                                                        <i class="fa-solid fa-location-dot"></i> <br> 
+                                                        <span>
+                                                                <a><b>Head Office: </b>24, Awoniyi Elemo Str, Ajao Estate, Oshodi Lagos State Nigeria</a> <br>
+                                                                <a><b>Branch: </b>290 Aba Road,Port Harcourt. River State Nigeria</a>
+                                                        </span>
+                                                </li>
+                                                                                                        
+                                                <div class="socialmedia row justify-content-between">
+                                                        <a class="col-2" href="https://web.facebook.com/odtmmedia"><i class="fa-brands fa-facebook"></i></a>
+                                                        <a class="col-2" href="https://www.instagram.com/odtm.media/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                                                        <a class="col-2" href="https://wa.me/message/EBMWWPF654HUP1"><i class="fa-brands fa-whatsapp"></i></a>
+                                                </div>
+                                        </ul>
+                                </section>
+                                 <div class="formap">
+                                        <h4 class="text-white">Ikeja Office Branch</h4>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.776413362134!2d3.327849314266654!3d6.5498894246743715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8e0d9562d3cf%3A0x6e42911369773e1d!2s24%20Awoniyi%20Elemo%20St%2C%20Ajao%20Estate%20100263%2C%20Lagos!5e0!3m2!1sen!2sng!4v1675342386260!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map">
+                                </div>
+
+                        </div>
+                </div>
+        </div>
+
+
+
+        
+</body>
+</html>

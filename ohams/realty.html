@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ohamsgroup</title>
+        <link rel="shortcut icon" aria-current="true" href="ohamsrealtyimages/OHAMSLOGO.png" type="image/x-img"> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/solid.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/realtystyle.css">
+                 
+        <script>
+                function sendingemail() {
+                        var name = document.getElementById('name').value;
+                        var email = document.getElementById("email").value;
+                        var subject = document.getElementById("subject").value;
+                        var message = name  + document.getElementById("message").value;
+
+                        if (name == "" || email == "" || subject == "" || message == "") {
+                                alert ("please fill all the mail parameters")
+                        }  
+                        else {
+                                open(href = "mailto: ohamsrealty@gmail.com"+"?subject="+subject+"&body="+message);
+                        }
+                }
+        </script>
+
+</head>
+        <body onclick="scrollfunction()">
+          
+        <div class="pagelinks" id="link">
+                <a href="realty.html">
+                        <h1>OHAMS realty</h1>
+                        <i class="fa-solid fa-city"></i>
+                </a>
+                <a href="index.html">
+                        <h1>OHAMS International services</h1>
+                        <i class="fa-solid fa-tractor"></i>
+                </a>
+                <a href="odtm.html">
+                        <h1>ODTM media</h1>
+                        <i class="fa-solid fa-video-camera"></i>
+                </a>
+        </div>
+                
+                <div class="olusegunpopup fixed-top" id="olusegunpopup"> 
+                        <i class="fa-solid fa-x" onclick="popup('none')"></i>
+                        <div class="box">
+                                <img src="ohamsrealtyimages/olusegun.jpeg" alt="CEO Image">
+                                <h4>Olusegun Oladimeji</h4>
+                                <h5>CEO/Founder</h5>
+                                <p>
+                                        Mr. Oladimeji Williams Olusegun (Certificate of Fellow, Economics)
+                                <p>
+                                        Oladimeji is a dynamic and visionary leader, serving as the CEO of OHAMS Group of companies. With a strong passion for innovation and a track record of driving growth, Oladimeji has successfully positioned the group as a leader in diverse industries.
+                                        A seasoned executive with a keen business acumen, he combines strategic thinking with a hands-on approach. His leadership has propelled the group to new heights, consistently achieving exceptional results and expanding its footprint both nationally and internationally.
+                                        Guided by a strong commitment to excellence, Oladimeji fosters a culture of innovation and collaboration, empowering teams to reach their full potential. By cultivating a shared vision and leveraging his industry expertise, he inspires the organization to surpass expectations and deliver exceptional value to clients and stakeholders.
+                                        With a relentless focus on market dynamics and emerging trends, Oladimeji has successfully executed strategic partnerships, acquisitions, and expansions, positioning the group at the forefront of industry innovation. His ability to identify untapped opportunities and capitalize on them has been instrumental in achieving sustainable growth and competitive advantage.
+                                        Oladimeji holds a BSc. Biochemistry from Lagos State University, Lagos and a certificate of fellowship from Nigeria and Ghana. He is widely recognized as an influential figure in the business community. He actively engages in thought leadership, sharing insights and expertise at industry conferences and forums.
+                                        Under the visionary leadership of Oladimeji, the group of companies continues to thrive, driven by a culture of innovation, exceptional client service, and a relentless pursuit of excellence.
+                                </p>
+
+                                </p>
+                        </div>
+                </div>
+
+                <header class="header" id="header">
+                        <nav>
+                                <ul class="list-unstyled row">
+                                        <li class="col col-2" onclick="scrolltopage('home')">home</li>
+                                        <li class="col col-2" onclick="scrolltopage('about')">about</li>
+                                        <li class="col col-2" onclick="scrolltopage('partners')">partners</li>
+                                        <li class="col col-2" onclick="scrolltopage('services')">services</li>
+                                        <li class="col col-2" onclick="scrolltopage('portfolio')">portfolio</li>
+                                        <li class="col col-2" onclick="scrolltopage('contact')">contact</li>
+                                </ul>
+                        </nav>
+
+                </header>
+
+                <div class="home row" id="home">
+                        <div class="hometext col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
+                                <h2><span class="backtext">OHAMS</span> realty limited</h2>
+                                <h4>Property trade has never been better</h4>
+                                <button class="btn btn-danger" onclick="scrolltopage('team')">
+                                        meet us <i class="fa-solid fa-arrow-down"></i>
+                                </button>
+                        </div>
+                        <img src="/ohamsrealtyimages/house-1836070_640.jpg" alt="red painted house for homepage" class=" col-sm-12 col-md-7 col-lg-7 col-xl-8 col-xxl-8">
+                </div>
+
+                <div class="about" id="about">
+                        <h1 class="col-xxl-5 col-xl-5 col-lg-5 col-md-10 col-sm-10">what do we do?</h1>
+                        <div class="row segun">
+                                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-10 col-sm-10">
+                                        <p class="lead">
+                                                We offer a wide range of services to help individuals.
+                                        </p>
+
+                                        <p>
+                                                We provide comprehensive real estate services designed to meet the diverse needs of our clients, With a team of experienced professionals and a deep understanding of the real estate market.
+                                        </p>
+                                        <div class="olusegun row">
+                                                <img src="ohamsrealtyimages/olusegun.jpeg" class="col-lg-7 col-xl-6 col-xxl-6 col-md-5 col-sm-12">
+                                                <div class="abouthim col-lg-5 col-xl-6 col-xxl-6 col-md-5 col-sm-12 justify-content-start">
+                                                        <h3 class="backtext" onclick="popup('flex')">Oladimeji Williams</h3>
+                                                        <h5>CEO</h5>
+                                                        <p class="lead">
+                                                                Founder of <a href="" class="backtext">Ohams realty limited</a>
+                                                                </p>
+                                                                <p>
+                                                                        Mr. Oladimeji Williams Olusegun is a dynamic and visionary leader, serving as the CEO of OHAMS Group of companies. 
+                                                        </p>
+                                                </div>
+                                        </div>
+                                </div>
+                                <img src="ohamsrealtyimages/furniture-998265__480.jpg" alt="well furnished house" class="rounded-circle w-50 col-xxl-5 col-xl-5 col-lg-3 col-md-12 col-sm-10">
+                        </div>
+                        
+                        <h1 class="col-xxl-5 col-xl-5 col-lg-5 col-md-10 col-sm-10">The Team</h1>
+                        <div class="team row" id="team">
+                                <div class="theteam col-sm-10 col-md-5 col-lg-3 col-xl-3 col-xxl-3">
+                                        <img src="ohamsrealtyimages/olusegun.jpeg" alt="">
+                                        <h4>Oladimeji Williams</h4>
+                                        <h5>CEO/Founder</h5>
+                                        <p>
+                                                Mr. Oladimeji Williams Olusegun is a dynamic and visionary leader, serving as the CEO of OHAMS Group of companies. 
+                                        </p>
+                                </div>
+                                <div class="theteam col-sm-10 col-md-5 col-lg-3 col-xl-3 col-xxl-3">
+                                        <img src="ohamsrealtyimages/bola-ogundeyi.jpeg">
+                                        <h4>Bola Ogundeyi</h4>
+                                        <h5>COO</h5>
+                                        
+                                        <ul>
+                                                <p>
+                                                        An enthusiastic and charismatic individual with a passion for business development, management & strategy. 
+                                                </p>
+                                                <p>She holds a B.ED from Lead City University Ibadan, Oyo state. She is being recognized with her input in the transformation of brands accross board line ensuring a smooth running of all brands under the group </p>
+                                        </ul>
+                                </div>
+                                <div class="theteam col-sm-10 col-md-5 col-lg-3 col-xl-3 col-xxl-3">
+                                        <img src="ohamsrealtyimages/Ajileye oluwsaeyi.jpeg">
+                                        <h4>Ajileye oluwseyi</h4>
+                                        <h5>Associate partner</h5>
+                                        
+                                        <ul>
+                                                <li>
+                                                        He is an astute estate surveyor and valuer ,a construction manager,Media enthausiast ,whose professional expertise span over 15 years in the real estate and construction industry.
+                                                </li>
+                                        </ul>
+                                </div>
+                        </div>
+                        <h3>Partners</h3>
+                        <div class="partners row" id="partners">
+                                <div class="partnerbox col-lg2 col-md-3 col-sm-5">
+                                        <img src="ohamsrealtyimages/HItech logo.png" alt="HIteh logo">
+                                        <h3>construction</h3>
+                                        <h5>HITECH  construction</h5>
+                                        <div>
+                                                <a href="https://web.facebook.com/olabisiengineeringlimited/?_rdc=1&_rdr"><i class="fa-brands fa-facebook"></i></a>
+                                                <a href="https://www.instagram.com/p/B37asHhlDMN/"><i class="fa-brands fa-instagram-square"></i></a>
+                                        </div>
+                                </div>
+                                <div class="partnerbox col-lg2 col-md-3 col-sm-5">
+                                        <img src="ohamsrealtyimages/FCC logo.png" alt="Gain fountain logo">
+                                        <h3>construction</h3>
+                                        <h5>Gains fountain Globe</h5>
+                                        <div>
+                                                <a href="https://web.facebook.com/gainfountaingroup.ng/?_rdc=1&_rdr"><i class="fa-brands fa-facebook"></i></a>
+                                                <a href="https://www.instagram.com/gainfountainproperties/?hl=en"><i class="fa-brands fa-instagram-square"></i></a>
+                                        </div>
+                                </div>
+                                <div class="partnerbox col-lg2 col-md-3 col-sm-5">
+                                        <img src="ohamsrealtyimages/amber.png" alt="amber Properties logo">
+                                        <h3>Real estate</h3>
+                                        <h5>AMBA  Properties</h5>
+                                        <div>
+                                                <a href="https://web.facebook.com/p/Amba-Properties-Limited-100066671433864/?_rdc=1&_rdr"><i class="fa-brands fa-facebook"></i></a>
+                                                <a href="https://www.instagram.com/ambaproperties/?hl=da"><i class="fa-brands fa-instagram-square"></i></a>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <div class="countingnumbers row">
+                                <section>
+                                        <h1 data-val="170" class="count">170+</h1>
+                                        <i class="fa-solid fa-face-smile"></i>
+                                        <h4>happy customers</h4>
+                                </section>
+                                <section>
+                                        <h1 data-val="250" class="count">250+</h1>
+                                        <i class="fa-solid fa-check-double"></i>
+                                        <h4>projects completed</h4>
+                                </section>
+                                <section>
+                                        <h1 data-val="11" class="count">11+</h1>
+                                        <i class="fa-solid fa-certificate"></i>
+                                        <h4>years of experience</h4>
+                                </section>
+                        </div>
+                </div>
+
+
+                <div class="services" id="services">
+                        <h1>what do we offer</h1>
+                        <div class="box">
+                        </div>
+                        <p>
+                                We provide comprehensive real estate services designed to meet the diverse needs of our clients. With a team of experienced professionals and a deep understanding of the real estate market, we offer a wide range of services to help individuals, families, and businesses navigate the complex world of real estate.
+                        </p>
+                </div>
+
+                <div class="carousel slide" id="servicecarousel" data-bs-ride="carousel">
+
+                        <div class="carouselbuttons row justify-content-center">
+                                <button type="button" data-bs-slide-to="0" aria-label="slide 1"  aria-current="true" data-bs-target="#servicecarousel" class="active col-lg-1 col-md-2 col-sm-2">
+                                        <i class="fa-solid fa-city"></i>
+                                         <h4>Buying & Selling Properties</h4>
+                                </button>
+                                <button type="button" data-bs-slide-to="1" aria-label="slide 2"  data-bs-target="#servicecarousel" class="col-lg-1 col-md-2 col-sm-2">
+                                        <i class="fa-solid fa-house-medical"></i>
+                                        <h4>Property Management</h4>
+                                </button>
+                                <button type="button" data-bs-slide-to="2" aria-label="slide 3"  data-bs-target="#servicecarousel" class="col-lg-1 col-md-2 col-sm-2">
+                                        <i class="fa-solid fa-house-chimney-user"></i>
+                                        <h4>Rental Services</h4>
+                                </button>
+                                <button type="button" data-bs-slide-to="3" aria-label="slide 4"  data-bs-target="#servicecarousel" class="col-lg-1 col-md-2 col-sm-2">
+                                        <i class="fa-solid fa-user-tie"></i>
+                                        <h4> Real Estate Consulting</h4>
+                                </button>
+                                <button type="button" data-bs-slide-to="4" aria-label="slide 5"  data-bs-target="#servicecarousel" class="col-lg-1 col-md-2 col-sm-2">
+                                        <i class="fa-solid fa-house-signal"></i>
+                                        <h4>Commercial Real Estate</h4>
+                                </button>
+                                <button type="button" data-bs-slide-to="5" aria-label="slide 6"  data-bs-target="#servicecarousel" class="col-lg-1 col-md-2 col-sm-2">
+                                        <i class="fa-solid fa-house-medical-circle-check"></i>
+                                        <h4>Real Estate Investment</h4>
+                                </button>
+                                <button type="button" data-bs-slide-to="6" aria-label="slide 7"  data-bs-target="#servicecarousel" class="col-lg-1 col-md-2 col-sm-2">
+                                        <i class="fa-solid fa-truck-fast"></i>
+                                        <h4>Relocation Services</h4>
+                                </button>
+                        </div>
+
+                        <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                        <div class="box">
+                                                <i class="fa-solid fa-city"></i>
+                                                <div>
+                                                        <h4>Buying & Selling Properties</h4>
+                                                        <p>
+                                                                Whether you are looking to buy your dream home or sell your property, our expert agents are here to guide you through every step of the process. We leverage our extensive network and market knowledge to help you find the perfect property or attract potential buyers, ensuring a smooth and successful transaction.
+                                                        </p>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="carousel-item">
+                                        <div class="box">
+                                                <i class="fa-solid fa-house-chimney-medical"></i>
+                                                <div>
+                                                        <h4>Property Management</h4>
+                                                        <p>
+                                                                Our property management services are tailored to property owners who wish to maximize their investment returns without the hassle of day-to-day management. From tenant screening and lease agreements to rent collection and maintenance, we handle all aspects of property management, allowing owners to enjoy passive income and peace of mind.
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="carousel-item">
+                                        <div class="box">
+                                                <i class="fa-solid fa-house-chimney-user"></i>
+                                                <div>
+                                                        <h4>Rental Services</h4>
+                                                        <p>
+                                                                If you are seeking a rental property, we can assist you in finding the ideal space that meets your specific requirements. Our rental services encompass residential, commercial, and industrial properties, and we strive to match tenants with properties that suit their needs and budget.
+                                                        </p>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="carousel-item">
+                                        <div class="box">
+                                                <i class="fa-solid fa-user-tie"></i>
+                                                <div>
+                                                        <h4>Real Estate Consulting</h4>
+                                                        <p>
+                                                                Our team of real estate consultants provides expert advice and guidance on various real estate matters. Whether you need assistance with property valuation, market analysis, investment opportunities, or development projects, we offer strategic insights to help you make informed decisions and achieve your objectives.
+                                                        </p>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="carousel-item">
+                                        <div class="box">
+                                                <i class="fa-solid fa-house-signal"></i>
+                                                <div>
+                                                        <h4>Commercial Real Estate</h4>
+                                                        <p>
+                                                                We specialize in commercial real estate services, catering to businesses looking to lease, buy, or sell commercial properties. Our expertise covers office spaces, retail locations, industrial facilities, and investment properties. We work closely with clients to understand their unique business requirements and provide tailored solutions to meet their commercial real estate needs.
+                                                        </p>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="carousel-item">
+                                        <div class="box">
+                                                <i class="fa-solid fa-house-medical-circle-check"></i>
+                                                <div>
+                                                        <h4>Real Estate Investment</h4>
+                                                        <p>
+                                                                For investors seeking opportunities in real estate, we offer personalized investment services. Our team identifies lucrative investment options, conducts thorough due diligence, and provides financial analysis to help investors make informed decisions and maximize their returns.
+                                                        </p>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="carousel-item">
+                                        <div class="box">
+                                                <i class="fa-solid fa-truck-fast"></i>
+                                                <div>
+                                                        <h4>Relocation Services</h4>
+                                                        <p>
+                                                                If you are planning to relocate to a new area, our relocation services can simplify the process for you. We provide comprehensive support in finding suitable housing, familiarizing you with the local market, and assisting with the logistics of moving, ensuring a seamless transition to your new location.
+                                                        </p>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <div class="carousel-control-prev" data-bs-target="#servicecarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-current="true"></span>
+                        </div>
+
+                        <div class="carousel-control-next" data-bs-target="#servicecarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-current="true"></span>
+                        </div>
+                </div>
+
+                <div id="portfolio">
+                        <img src="ohamsrealtyimages/1.jpg">
+                        <img src="ohamsrealtyimages/2.jpg">
+                        <img src="ohamsrealtyimages/3.jpg">
+                        <img src="ohamsrealtyimages/4.jpg">
+                        <img src="ohamsrealtyimages/5.jpg">
+                </div>
+                
+                <div class="footer" id="contact">
+                        <h1>Get in touch</h1>
+                        <div class="contact row justify-content-around">
+                                <div class="left col-xl-4 col-md-4 col-sm-10 justify-content-around">
+                                        <div class="contactbox">
+                                                <input type="text" placeholder="Full Name" id="name"> <br>
+                                                <input type="email" placeholder="Email Address" id="email"> <br>
+                                                <input type="text" placeholder="Subject" id="subject"> <br>
+                                                <textarea placeholder="How may we help you?" id="message" cols="30" rows="10"></textarea>
+                                                <button onclick="sendingemail()">submit</button>
+                                        </div>
+
+                                </div>
+                                <div class="right col-xl-6 col-md-6 col-sm-10 justify-content-around">
+                                        <section id="address" class="row justify-content-around">
+                                                <div class="col-4 col-md-5">
+                                                        contact info
+                                                </div>
+                                                <ul class="col-6">
+                                                        <li><i class="fa-solid fa-phone"></i> <br> <a href="tel:+2348055227735">+2348055227735</a></li>
+                                                        <li><i class="fa-solid fa-envelope"></i> <br> <a href="mailto:ohamsrealty@gmail.com">ohamsrealty@gmail.com</a></li>
+                                                        <li>
+                                                                <i class="fa-solid fa-location-dot"></i> <br> 
+                                                                <span>
+                                                                        <a><b>Head Office: </b>24, Awoniyi Elemo Str, Ajao Estate, Oshodi Lagos State Nigeria</a> <br>
+                                                                        <a><b>Branch: </b>290 Aba Road,Port Harcourt. River State Nigeria</a>
+                                                                </span>
+                                                        </li>
+                                                        
+                                                        <div class="socialmedia row justify-content-between">
+                                                                <a class="col-2" href="https://web.facebook.com/profile.php?id=100090244922502"><i class="fa-brands fa-facebook"></i></a>
+                                                                <a class="col-2" href="https://www.instagram.com/ohamsrealty1/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                                                                <a class="col-2" href="https://wa.me/qr/NHHLYUKW7FULG1"><i class="fa-brands fa-whatsapp"></i></a>
+                                                        </div>
+                                                </ul>
+                                        </section>
+                                         <div class="formap">
+                                                <h4 class="text-white">Ikeja Head Office</h4>
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.776413362134!2d3.327849314266654!3d6.5498894246743715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8e0d9562d3cf%3A0x6e42911369773e1d!2s24%20Awoniyi%20Elemo%20St%2C%20Ajao%20Estate%20100263%2C%20Lagos!5e0!3m2!1sen!2sng!4v1675342386260!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map">
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+
+    
+
+        </body>
+        
+</html>

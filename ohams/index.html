@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ohams international Service </title>
+        <link rel="shortcut icon" href="ohamsinterntionalservicefolder/logo.jpg" type="image/x-img">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/solid.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="styles/internationalservicestyle.css">
+        <script>
+                function senemail() {
+                        var name = document.getElementById('name').value;
+                        var email = document.getElementById("email").value;
+                        var subject = document.getElementById("subject").value;
+                        var message = name  + document.getElementById("message").value;
+
+                        if (name == "" || email == "" || subject == "" || message == "") {
+                                alert ("please fill all the mail parameters")
+                        }  
+                        else {
+                                open(href = "mailto: ohamsinternationalserviceslimi@gmail.com"+"?subject="+subject+"&body="+message);
+                        }
+                }
+        </script>
+</head>
+
+<body onscroll="scrollfunction()">
+
+        <div class="pagelinks" id="link">
+                <a href="realty.html">
+                        <h1>OHAMS realty</h1>
+                        <i class="fa-solid fa-city"></i>
+                </a>
+                <a href="index.html">
+                        <h1>OHAMS International services</h1>
+                        <i class="fa-solid fa-tractor"></i>
+                </a>
+                <a href="odtm.html">
+                        <h1>ODTM media</h1>
+                        <i class="fa-solid fa-video-camera"></i>
+                </a>
+        </div>
+
+        <header id="header">
+                <nav>
+                        <ul class="list-unstyled row">
+                                <li class="col col-2" onclick="scrolltopage('home')">home</li>
+                                <li class="col col-2" onclick="scrolltopage('about')">about</li>
+                                <li class="col col-2" onclick="scrolltopage('team')">our team</li>
+                                <li class="col col-2" onclick="scrolltopage('projects')">projects</li>
+                                <li class="col col-2" onclick="scrolltopage('logistics')">logistics</li>
+                                <li class="col col-2" onclick="scrolltopage('contact')">contact</li>
+                        </ul>
+                </nav>
+
+        </header>
+
+        <div class="home" id="home">
+                <div class="carousel slide" id="internationalservicecarousel" data-bs-ride="carousel">
+
+                        <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                        <div class="box">
+                                                <img src="ohamsinterntionalservicefolder/female-sitting sideways with a male rareview.jpg">
+                                                <div class="cover"></div>
+                                                <div class="hometext">
+                                                        <h3>International Services</h3>
+                                                        <div>
+                                                                At OHAMS International Services, we offer a comprehensive range of international services designed to meet the diverse needs of businesses operating in a globalized marketplace.
+                                                        </div>
+                                                        <button>meet us</button>
+                                                </div>
+                                        </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                        <div class="box">
+                                                <img src="ohamsinterntionalservicefolder/cleaners.jpg">
+                                                <div class="cover"></div>
+                                                <div class="hometext">
+                                                        <h3>Procurement Solutions</h3>
+                                                        <div>
+                                                                Our procurement services offer comprehensive solutions to optimize and streamline your organization's purchasing process. 
+                                                        </div>
+                                                        <button>meet us</button>
+                                                </div>
+                                        </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                        <div class="box">
+                                                <img src="ohamsinterntionalservicefolder/pexels-christina-morillo-1181370.jpg">
+                                                <div class="cover"></div>
+                                                <div class="hometext">
+                                                        <h3>Partnerships and Collaborations</h3>
+                                                        <div>
+                                                                At OHAMS International Services, we believe that successful partnerships and collaborations are the key to driving innovation, growth, and mutual success.
+                                                        </div>
+                                                        <button>meet us</button>
+                                                </div>
+                                        </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                        <div class="box">
+                                                <img src="ohamsinterntionalservicefolder/images.jpg">
+                                                <div class="cover"></div>
+                                                <div class="hometext">
+                                                        <h3>Corporate Social Responsibility</h3>
+                                                        <div>
+                                                                At OHAMS International services, we are committed to making a positive impact on society and the environment through our corporate social responsibility initiatives.
+                                                        </div>
+                                                        <button>meet us</button>
+                                                </div>
+                                        </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                        <div class="box">
+                                                <img src="ohamsinterntionalservicefolder/oil-and-gas-background-image.jpg">
+                                                <div class="cover"></div>
+                                                <div class="hometext">
+                                                        <h3>Oil and Gas Expertise</h3>
+                                                        <div>
+                                                                We possess extensive expertise in the oil and gas industry, providing specialized services and solutions to support the unique needs of this dynamic sector.
+                                                        </div>
+                                                        <button>meet us</button>
+                                                </div>
+                                        </div>
+                                </div>
+
+                        </div>
+
+                        <div class="scrolllink">
+                                <div class="carousel-ontrol-prev" data-bs-target="#internationalservicecarousel" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                </div>
+                                <div class="carousel-ontrol-next" data-bs-target="#internationalservicecarousel" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon"></span>
+                                </div>
+                        </div>
+
+                </div>
+        </div>
+
+        <div class="about" id="about">
+                <div class="aboutfirst row">
+                        <div class="aboutflex col-xl-7 col-lg-7 col-md-7 col-sm-10">
+                                <h2>about</h2>
+                                <p class="lead">
+                                        <span class="backtext">OHAMS INTERNATIONAL SERVICES LIMITED</span> is a leading provider of international services, procurement solutions, and oil and gas expertise. With a strong global presence and a proven track record, we offer a comprehensive range of services to support our clients' operations and facilitate their success in complex and competitive industries.
+                                </p>
+
+                                <div class="carousel slide" id="aboutcarousel" data-bs-ride="carousel">
+                                        <div class="boxes carousel-inner">
+                                                <div class="carousel-item active">
+                                                        <div class="box">
+                                                                <img src="ohamsinterntionalservicefolder/Banner-Covers-1.jpg">
+                                                                <h3>International Services</h3>
+                                                                <p>
+                                                
+                                                                        Our international services division specializes in assisting businesses in expanding their operations and reaching new markets around the world. We provide comprehensive market research, strategic planning, and logistical support to help our clients navigate the challenges of global expansion. From market entry strategies to establishing distribution networks, we offer tailored solutions to drive international growth and maximize opportunities.
+                                                                </p>
+                                                        </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                        <div class="box">
+                                                                <img src="ohamsinterntionalservicefolder/Banner-Covers-2.jpg">
+                                                                <h3>Procurement Solutions</h3>
+                                                                <p>
+                                                                        Our procurement division is dedicated to streamlining supply chain processes and optimizing procurement strategies for our clients. Leveraging our extensive network of trusted suppliers and industry partnerships, we ensure efficient sourcing, competitive pricing, and reliable delivery of goods and services. We specialize in procurement across various sectors, including manufacturing, construction, energy, and technology, delivering cost-effective solutions that meet quality standards and project timelines.
+                                                                </p>
+                                                        </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                        <div class="box">
+                                                                <img src="ohamsinterntionalservicefolder/Banner-Covers-3.jpg">
+                                                                <h3>Oil and Gas Expertise</h3>
+                                                                <p>
+                                                                        With deep-rooted expertise in the oil and gas industry, we provide comprehensive services to support exploration, production, and infrastructure projects. Our team of industry professionals offers project management, engineering, procurement, and construction management (EPCM) services, ensuring the successful execution of oil and gas projects from inception to completion. We are committed to adhering to the highest safety standards and environmental practices while delivering innovative and sustainable solutions to our clients.
+                                                                </p>
+                                                        </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                        <div class="box">
+                                                                <img src="ohamsinterntionalservicefolder/Banner-Covers-4.jpg">
+                                                                <h3>Partnerships and Collaborations</h3>
+                                                                <p>
+                                                                        We believe in the power of partnerships and collaborations to drive success. We have established strong relationships with industry-leading organizations, suppliers, and service providers, enabling us to deliver comprehensive and integrated solutions to our clients. By working closely with our partners, we leverage collective expertise and resources to achieve exceptional outcomes and exceed client expectations.
+                                                                </p>
+                                                        </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                        <div class="box">
+                                                                <img src="ohamsinterntionalservicefolder/Banner-Covers-5.jpg">
+                                                                <h3>Corporate Social Responsibility</h3>
+                                                                <p>
+                                                                        As a responsible corporate citizen, we are committed to making a positive impact in communities where we operate. We actively engage in social initiatives, environmental stewardship, and community development programs. Our goal is to contribute to sustainable growth, empower local communities, and promote social well-being through our operations and partnerships.
+                                                                </p>
+                                                        </div>
+                                                </div>
+                                        </div>
+
+                                        <div class="carouselbuttons">
+                                                <button aria-label="slide 1" data-bs-target="#aboutcarousel" data-bs-slide-to="0" aria-current="true"></button>
+                                                <button aria-label="slide 2" data-bs-target="#aboutcarousel" data-bs-slide-to="1" aria-current="true"></button>
+                                                <button aria-label="slide 3" data-bs-target="#aboutcarousel" data-bs-slide-to="2" aria-current="true"></button>
+                                                <button aria-label="slide 4" data-bs-target="#aboutcarousel" data-bs-slide-to="3" aria-current="true"></button>
+                                                <button aria-label="slide 5" data-bs-target="#aboutcarousel" data-bs-slide-to="4" aria-current="true"></button>
+                                        </div>
+                                </div>
+                        </div>
+                        <img src="ohamsinterntionalservicefolder/internationalservices.jpg" alt="woman describing on board" class="col-xl-4 col-lg-4 col-md-4 col-sm-10">
+                </div>
+                
+                <div class="countingnumbers row">
+                        <section class="col-xxl-3 col-xl-3 col-md-3 col-sm-8">
+                                <h1 class="counter" data-val="50">50+</h1>
+                                <i class="fa-solid fa-face-smile"></i>
+                                <h4>happy customers</h4>
+                        </section>
+                        <section class="col-xxl-3 col-xl-3 col-md-3 col-sm-8">
+                                <h1 class="counter" data-val="90">90+</h1>
+                                <i class="fa-solid fa-check-double"></i>
+                                <h4>projects completed</h4>
+                        </section>
+                        <section class="col-xxl-3 col-xl-3 col-md-3 col-sm-8">
+                                <h1 class="counter" data-val="15">15+</h1>
+                                <i class="fa-solid fa-certificate"></i>
+                                <h4>years of experience</h4>
+                        </section>
+                        <p class="lead">OHAMS INTERNATIONAL SERVICES LIMITED - Empowering Global Success in International Services, Procurement, and Oil & Gas.</p>
+                </div>
+
+                <div class="team" id="team">
+                        <div class="carousel slide" id="Teamcarousel">
+                                <div class="teamlink">
+                                        <button data-bs-slide-to="0" data-bs-target="#Teamcarousel" aria-current="true" aria-label="slide 1">
+                                                <img src="ohamsinterntionalservicefolder/olusegun.png">
+                                                <h3>CEO</h3>
+                                                <h4>Oladimeji Williams</h4>
+                                        </button>
+                                        <button data-bs-slide-to="1" data-bs-target="#Teamcarousel" aria-current="true" aria-label="slide 2">
+                                                <img src="ohamsrealtyimages/bola-ogundeyi.jpeg">
+                                                <h3>COO</h3>
+                                                <h4>Bola Ogundeyi</h4>
+                                        </button>
+                                </div>
+
+                                <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                                <div class="teambox">
+                                                        <img src="ohamsinterntionalservicefolder/olusegun.png">
+                                                        <div class="internationalserviceteam">
+                                                                <h2>CEO</h2>
+                                                                <h4>Oladimeji Williams</h4>
+                                                                <p>
+                                                                        Mr. Oladimeji Williams Olusegun is a dynamic and visionary leader, serving as the CEO of OHAMS Group of companies. 
+                                                                </p>
+                                                        </div>
+                                                </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                                <div class="teambox">
+                                                        <img src="ohamsrealtyimages/bola-ogundeyi.jpeg">
+                                                        <div class="internationalserviceteam">
+                                                                <h2>COO</h2>
+                                                                <h4>Bola ogundeyi</h4>
+                                                                <p>
+                                                                        An enthusiastic and charismatic individual with a passion for business development, management & strategy. 
+                                                                </p>
+                                                                <p>She holds a B.Ed from Lead City University Ibadan, Oyo state. She is being recognized with her input in the transformation of brands accross board line ensuring a smooth running of all brands under the group </p>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+
+                <div class="previousrojects justify-content-evenly row" id="projects">
+                        <div class="projects col-xxl-3 col-xl-3 col-lg-3 col-md-5 col-sm-7">
+                                <img src="odtmmediaimages/genesis cinema logo.png" alt="genesis cinema logo">
+                                <h5>Genesis group</h5>
+                                <h4>Work</h4>
+                                <address>
+                                        <a href="https://www.facebook.com/genesiscinemasfr?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                                        <a href="https://instagram.com/genesiscinemas?igshid=NTc4MTIwNjQ2YQ=="><i class="fa-brands fa-instagram-square"></i></a>
+                                </address>
+                        </div>
+                        <div class="projects col-xxl-3 col-xl-3 col-lg-3 col-md-5 col-sm-7">
+                                <img src="odtmmediaimages/arik airline Logo.png" alt="Arik airline logo">
+                                <h5>Arik airline</h5>
+                                <h4>Work</h4>
+                                <address>
+                                        <a href="https://www.facebook.com/arikairwaysuk?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                                        <a href="https://instagram.com/flyarikair?igshid=NTc4MTIwNjQ2YQ=="><i class="fa-brands fa-instagram-square"></i></a>
+                                </address>
+                        </div>
+                        <div class="projects col-xxl-3 col-xl-3 col-lg-3 col-md-5 col-sm-7">
+                                <img src="ohamsrealtyimages/3.jpg" alt="brand eye logo">
+                                <h5>Ogun state government</h5>
+                                <h4>Work</h4>
+                                <address>
+                                        <a href="https://www.facebook.com/ogunstategov?mibextid=ZbWKwL "><i class="fa-brands fa-facebook"></i></a>
+                                        <a href="https://instagram.com/ogsgofficial?igshid=NTc4MTIwNjQ2YQ=="><i class="fa-brands fa-instagram-square"></i></a>
+                                </address>
+                        </div>
+                </div>
+        </div>
+
+        <div id="portfolio">
+                <img src="ohamsinterntionalservicefolder/portfolio/1.jpg">
+                <img src="ohamsinterntionalservicefolder/portfolio/3.jpg">
+                <img src="ohamsinterntionalservicefolder/portfolio/6.jpg">
+                <img src="ohamsinterntionalservicefolder/portfolio/7.jpg">
+        </div>
+
+        <div id="logistics">
+                <h3>Logistics</h3>
+                <p>
+                        We are leading logistics company that specializes in providing comprehensive supply chain solutions to businesses across various industries. With a strong global presence and a reputation for excellence, we offer a wide range of logistics services tailored to meet the unique needs of our clients.
+                </p>
+
+                <p>
+                        We offer a comprehensive range of car hire services, providing flexible options to meet the unique requirements of our clients. Whether it's for business trips, leisure travel, or special occasions, our extensive fleet of well-maintained vehicles is ready to cater to various preferences and budgets. From economy cars to luxury sedans, SUVs, and vans. 
+                        In addition to car hire, we specialize in providing reliable and efficient bus shuttle services.
+                </p>
+
+                <div class="portfolio">
+                        <div>
+                                <img src="ohamsinterntionalservicefolder/logistice portfolio/1.jpg">
+                                <h4>Shuttle bus</h4>
+                                <p>Available for groups and companies</p>
+                        </div>
+                        <div>
+                                <img src="ohamsinterntionalservicefolder/logistice portfolio/2.jpg">
+                                <h4>VENZA</h4>
+                                <p>Available for picking up our clients</p>
+                        </div>
+                        <div>
+                                <img src="ohamsinterntionalservicefolder/logistice portfolio/3.jpg">
+                                <h4>Excort Vehicles</h4>
+                                <p>Available for safe excort of our clients</p>
+                        </div>
+                        <div>
+                                <img src="ohamsinterntionalservicefolder/logistice portfolio/4.jpg">
+                                <h4>Toyota Prado</h4>
+                                <p>Moving our clients around the nation</p>
+                        </div>
+                </div>
+        </div>
+        
+        <div class="footer" id="contact">
+                <h1>Get in touch</h1>
+                <div class="contact row">
+                        <div class="left col-xl-4 col-md-4 col-sm-12 justify-content-around">
+                                <div class="contactbox">
+                                        <input type="text" placeholder="Full Name" id="name"> <br>
+                                        <input type="email" placeholder="Email Address" id="email"> <br>
+                                        <input type="text" placeholder="Subject" id="subject"> <br>
+                                        <textarea placeholder="How may we help you?" id="message" cols="30" rows="10"></textarea>
+                                        <button onclick="senemail()">SUBMIT</button>
+                                </div>
+
+                        </div>
+                        <div class="right col-xl-6 col-md-6 col-sm-12 justify-content-around">
+                                <section id="address" class="row justify-content-around">
+                                        <div class="col-4 col-md-5">
+                                                contact info
+                                        </div>
+                                        <ul class="col-6">
+                                                <li><i class="fa-solid fa-phone"></i> <br> <a href="tel:+2348023158474">+2348023158474</a></li>
+                                                <li><i class="fa-solid fa-envelope"></i> <br><a href="mailto:ohamsinternationalserviceslimi@gmail.com">ohamsinternationalserviceslimi@gmail.com</a></li>
+                                                <li>
+                                                        <i class="fa-solid fa-location-dot"></i> <br> 
+                                                        <span>
+                                                                <a><b>Head Office: </b>24, Awoniyi Elemo Str, Ajao Estate, Oshodi Lagos State Nigeria</a> <br>
+                                                                <a><b>Branch: </b>290 Aba Road,Port Harcourt. River State Nigeria</a>
+                                                        </span>
+                                                </li>
+                                                                
+                                                <div class="socialmedia row justify-content-between">
+                                                        <a class="col-2" href="https://web.facebook.com/profile.php?id=100093704456369"><i class="fa-brands fa-facebook"></i></a>
+                                                        <a class="col-2" href="https://www.instagram.com/ohamsinternationalservices/"><i class="fa-brands fa-instagram"></i></a>
+                                                        <a class="col-2" href="https://wa.me/qr/NHHLYUKW7FULG1"><i class="fa-brands fa-whatsapp"></i></a>
+                                                </div>
+                                        </ul>
+                                </section>
+                                        <div class="formap">
+                                                <h4 class="text-white">Ikeja Head Office</h4>
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.776413362134!2d3.327849314266654!3d6.5498894246743715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8e0d9562d3cf%3A0x6e42911369773e1d!2s24%20Awoniyi%20Elemo%20St%2C%20Ajao%20Estate%20100263%2C%20Lagos!5e0!3m2!1sen!2sng!4v1675342386260!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map">
+                                        </div>
+                                
+                                
+                        </div>
+                </div>
+        </div>
+                
+
+</body>
+</html>

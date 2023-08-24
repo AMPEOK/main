@@ -1,0 +1,676 @@
+header {
+        background-color: none;
+        transition: background 300ms;
+}
+
+ header nav ul li {
+        color: #fff;
+        
+}
+
+.carousel-item .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        align-items: center;
+        margin-bottom: 0;
+}
+
+.carousel-item .box .cover {
+        background-color: #333;
+        opacity: 0.6;
+        width: 100%;
+        position: absolute;
+        height: 100%;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+}
+
+.carousel-item .box .hometext {
+        position: absolute;
+        bottom: 4cm;
+        width: 50%;
+        left: 6cm;
+}
+
+.carousel-item .box .hometext h3 {
+        color: white;
+        text-transform: capitalize;
+        font-weight: 800;
+}
+
+.carousel-item .box .hometext div {
+        color: white;
+        font-size: 18px;
+}
+
+.carousel-item .box .hometext button {
+        color: white;
+        background: radial-gradient(#a33434, #D64F50  20%);
+        text-transform: capitalize;
+        font-size: 20px;
+        font-weight: 700;
+        width: 120px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 5px;
+        height: 40px;
+}
+
+.carousel-item .box img {
+        width: 100%;
+        object-fit: cover;
+        height: 18cm;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+}
+
+.scrolllink {
+        position: absolute;
+        top: 35%;
+        width: 90%;
+        margin-left: 5%;
+        display: flex;
+        height: 5cm;
+        justify-content: space-between;
+        
+}
+
+.scrolllink div {
+        height: 100;
+        background-color: #333;
+        opacity: 0.4;
+        width: 3cm;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+}
+
+.carousellink {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        height: 30px;
+        justify-content: space-around;
+        align-items: end;
+        right: 2cm;
+        bottom: 4cm;
+        z-index: 3;
+}
+
+.carousellink label {
+        border: none;
+        width: 20px;
+        height: 3px;
+        cursor: pointer;
+        background-color: white;
+}
+
+.carousellink label:hover {
+        transition: all 300ms;
+        background-color: #D64F50;
+        width: 30px;
+}
+
+.about {
+        margin-top: 2cm;
+}
+
+.about img {
+        object-fit: contain;
+        border-radius: 50%;
+        padding: 0;
+        box-shadow: 0 0 10px 2px #efefef;
+}
+
+.aboutfirst {
+        padding-top: 0;
+        margin-left: 10%;
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+}
+
+.aboutfirst .aboutflex .carousel {
+        width: 100%;
+        border-radius: 20px;
+        height: auto;
+        background-color: white;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.06);
+}
+
+
+.about h2 {
+        border-left: 10px solid #D64F50;
+        text-transform: capitalize;
+        font-weight: 700;
+}
+
+.aboutfirst .aboutflex .carousel .carousel-inner .carousel-item .box {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: start;
+        align-items: start;
+}
+
+.aboutfirst .aboutflex .carousel .carousel-inner .carousel-item .box img {
+        background-color: white;
+        margin-top: 10px;
+        padding: 5px;
+        width: 60px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        object-fit: cover;
+        height: 60px;
+        border-radius: 10px;
+
+}
+
+.aboutfirst .aboutflex .carousel .carousel-inner {
+        width: 80%;
+        margin-left: 10%;
+}
+
+.aboutfirst .aboutflex .carousel .carousel-inner .carousel-item .box h3 {
+        color: #D64F50;
+        font-size: 20px;
+        text-transform: capitalize;
+}
+
+.aboutfirst .aboutflex .carousel .carousel-inner .carousel-item .box p {
+        font-size: 14px;
+        color: #333;
+}
+
+.about .previousrojects {
+        margin-top: 80px;
+        width: 80%;
+        margin-left: 10%;
+}
+
+.about .previousrojects .projects {
+        border: 1px solid #a33434;
+        padding-top: 20px;
+        margin-top: 20px;
+}
+
+.about .previousrojects .projects img {
+        width: 3cm;
+        border-radius: 10px;
+        border: 2px solid #a33434;
+}
+
+.about .previousrojects .projects h4 {
+        color: #a33434;
+        font-size: 18px;
+}
+
+.about .previousrojects .praojects h5 {
+        font-size: 20px;
+}
+ 
+
+.carouselbuttons {
+        width: 50%;
+        bottom: -20%;
+        background-color: #D64F50;
+        border-radius: 20px;
+        height: 30px;
+        display: flex;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.06);
+        justify-content: space-evenly;
+        margin-left: 40%;
+        position: absolute;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+}
+
+.carouselbuttons button {
+        border: none;
+        width: 10px;
+        height: 10px;
+        padding: 0;
+        border-radius: 50%;
+}
+
+.contact {
+        width: 100%;
+        position: absolute;
+        height: fit-content;
+        padding-top: 2cm;
+        padding-bottom: 3cm;
+        left: 0;
+        margin-left: 0;
+        right: 0;
+        background-color: #D94030;
+}
+
+.contact .left {
+        display: block;
+        margin-left: 7%;
+}
+
+.contact .left .contactbox {
+        display: block;
+}
+
+.contact .left .contactbox input {
+        border-radius: 5px;
+        width: 90%;
+        height: 40px;
+        margin-bottom: 20px;
+        border: none;
+        font-size: 18px;
+        color: #D94030;
+        padding-left: 20px;
+        padding-right: 20px;
+}
+
+.contact .left .contactbox textarea {
+        border-radius: 5px;
+        width: 90%;
+        height: 7cm;
+        margin-bottom: 20px;
+        border: none;
+        padding-top: 10px;
+        resize: none;
+        font-size: 18px;
+        color: #D94030;
+        padding-left: 20px;
+        padding-right: 20px;
+}
+
+.contact .left .socialmedia {
+        width: 90%;
+}
+
+.contact .left .socialmedia i{
+        font-size: 30px;
+        color: white;
+}
+
+.contact .right {
+        display: flex;
+        flex-direction: column-reverse;
+}
+
+.contact .right .formap iframe {
+                width: 100%;
+                border-radius: 20px;
+                height: 9.4cm;
+        }
+
+.footer h1 {
+        font-size: 30px;
+        font-weight: 1900;
+        padding-left: 0;
+        text-transform: capitalize;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        font-size: 30px;
+        /* color: #D94030; */
+}
+
+#address {
+        position: relative;
+        height: 5cm;
+        top: 0;
+        display: flex;
+        left: 0;
+        color: white;
+        z-index: 10;
+        margin-top: 30px;
+}
+
+#address div {
+        border-right: 1px solid white;
+        height: 5cm;
+        padding-right: 0;
+        white-space: nowrap;
+        font-size: 30px;
+        text-transform: capitalize;
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#address ul li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+}
+
+#address ul li a {
+        color: white;
+        text-decoration: none;
+        width: 6cm;
+        font-size: 12px;
+        margin-left: 20px;
+        white-space: nowrap;
+        margin-top: -6px;
+        text-align: left;
+        
+}
+
+.pagelinks a {
+        border-color: white;
+}
+
+.services {
+        background: url(/ohamsrealtyimages/living-room-1835923__480.jpg);
+        margin-top: 2cm;
+}
+
+.services h1 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-transform: capitalize;
+        font-size: 30px;
+        text-align: center;
+        border-left: 10px solid;
+        font-weight: 600;
+}
+
+.team .teamlink {
+        width: 60%;
+        height: fit-content;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 20%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+}
+
+.team .teamlink button {
+        width: fit-content;
+        height: fit-content;
+        background: none;
+        line-height: 0;
+        border: none;
+}
+
+.team .teamlink button img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+}
+
+.team .teamlink button h3 {
+        font-size: 16px;
+        font-weight: 650;
+}
+
+.team .teamlink button h4 {
+        font-size: 13px;
+        font-weight: 650;
+        line-height: 0;
+        color: #D64F50;
+}
+
+.team .carousel .carousel-inner .carousel-item .teambox {
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+        margin-left: 15%;
+        border-radius: 20px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.06);
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+
+.team .carousel .carousel-inner .carousel-item .teambox img {
+        margin-left: 0;
+        width: 40%;
+        height: 11cm;
+        border-radius: 20px;
+        margin: 20px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.06);
+        margin-right: 0;
+}
+
+.team .carousel .carousel-inner .carousel-item .teambox .internationalserviceteam {
+        margin-left: 20px;
+        margin-top: 50px;
+}
+
+.team .carousel .carousel-inner .carousel-item .teambox .internationalserviceteam h2 {
+        border: none;
+        font-size: 20px;
+}
+
+.team .carousel .carousel-inner .carousel-item .teambox .internationalserviceteam p {
+        width: 90%;
+}
+
+.team .carousel .carousel-inner .carousel-item .teambox .internationalserviceteam h4 {
+        font-size: 15px;
+        font-weight: 100;
+        color: #D64F50;
+}
+
+#logistics {
+        background-color: #D94030;
+        border-radius: 30px;
+        width: 90%;
+        margin-left: 5%;
+        padding-top: 1cm;
+}
+
+
+#logistics h3 {
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #fff;
+        text-align: center;
+}
+
+#logistics p{
+        color: #fff;
+        width: 80%;
+        margin-left: 10%;
+}
+
+.team .carousel .carousel-inner .carousel-item .teambox .teamtext {
+        background-color: blue;
+        margin: 0;
+}
+
+
+.pagelinks a {
+        border: 2px solid #fff;
+}
+
+.pagelinks a:first-child {
+        background-color: #333;
+        margin-top: 80px;
+}
+
+.pagelinks a:first-child h1 {
+        color: white;
+}
+
+.pagelinks a:last-child h1 {
+        color: white;
+}
+
+.pagelinks a:nth-child(2) h1 {
+        color: white;
+}
+
+.pagelinks a:nth-child(2) {
+        background-color: #D94030;
+}
+
+.pagelinks a:last-child {
+        color: white;
+}
+
+.portfolio {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom: 20px;
+        margin-bottom: 2cm;
+        margin-left: 0%;
+        border-radius: 30px;
+        height: fit-content;
+        padding-top: 30px;
+        padding-bottom: 2cm;
+}
+
+#logistics .portfolio p {
+        color: #333;
+}
+
+.portfolio div {
+        width: 12cm;
+        cursor: pointer;
+        height: 4cm;
+        border-radius: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        margin-top: 15px;
+        background-color: white;
+        display: flex;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        object-fit: cover;
+}
+
+.portfolio div p {
+        text-align: center;
+        margin-left: 0;
+        padding-left: 0;
+}
+
+.portfolio div img {
+        border-radius: 15px;
+        width: 11cm;
+        height: 10cm;
+        object-fit: cover;
+}
+
+@media screen and (max-width: 900px)  {
+
+        .team .teamlink {
+                width: 80%;
+                margin-left: 10%;
+        }
+
+        .team .carousel .carousel-inner .carousel-item .teambox {
+                width: 90%;
+                margin-left: 5%;
+        }
+
+        .aboutfirst .aboutflex {
+                width: 100%;
+        }
+
+        .aboutfirst .aboutflex .carousel {
+                width: 100%;
+                height: auto;
+        }
+
+        .aboutfirst {
+                display: block;
+        }
+        
+        .aboutfirst img {
+                margin-top: 0;
+        }
+}
+
+
+@media screen and (max-width: 700px)  {
+                
+        .carousel-item .box {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                height: auto;
+                align-items: center;
+                margin-bottom: 0;
+        }
+
+        header {
+                display: none;
+        }
+
+        .carousel-item .box .hometext {
+                position: absolute;
+                left: unset;
+                display: flex;
+                height: 100%;
+                top: 0;
+                bottom: 0;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                bottom: unset;
+                width: 60%;
+        }
+
+        .carousel-item .box .hometext div {
+                color: white;
+                text-align: center;
+                font-size: 18px;
+        }
+
+        .scrolllink div {
+                height: 50px;
+                background-color: black;
+                opacity: 0.4;
+                border-radius: 50%;
+                opacity: 1;
+                width: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+        }
+
+        .aboutfirst .aboutflex {
+                width: 100%;
+        }
+
+        .aboutfirst .aboutflex .carousel {
+                width: 100%;
+                height: auto;
+        }
+                
+        .aboutfirst .aboutflex .carousel .carousel-inner .carousel-item .box {
+                display: flex;
+                flex-direction: column;
+                height: max-content;
+                justify-content: center;
+                align-items: start;
+        }
+
+
+        .aboutfirst .aboutflex .carousel .carousel-inner {
+                width: 80%;
+                height: 330px;
+                margin-left: 10%;
+        }
+
+        .aboutfirst img {
+                margin-top: 2cm;
+        }
+        
+}
